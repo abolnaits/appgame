@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AppGame</string>
+    <string name="app_name">Rocas</string>
+    <string name="btn_jugar">Jugar</string>
+    <string name="btn_conf">Configurar</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_otros">Otros</string>
+
 </resources>
