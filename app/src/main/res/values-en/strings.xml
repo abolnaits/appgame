@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rocks</string>
+    <string name="btn_jugar">Play</string>
+    <string name="btn_conf">Configuration</string>
+    <string name="btn_salir">Exit</string>
+    <string name="btn_otros">Other</string>
+
+</resources>
