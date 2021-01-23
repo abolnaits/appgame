@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <item
         android:id="@+id/itemJugar"
+        android:icon="@android:drawable/ic_btn_speak_now"
         android:title="Jugar" />
     <item
         android:id="@+id/itemOtros"
         android:title="Otros" />
+    <item
+        android:id="@+id/itemBuscar"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="Buscar"
+        android:visible="true"
+        app:showAsAction="always" />
+
 </menu>
