@@ -6,15 +6,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
-public class InfoActivity extends Activity {
+
+
+public class InfoActivity extends AppCompatActivity {
 
     //Archivo Main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.info);
+        //Init toolbar
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        setSupportActionBar(toolbar);
     }
+
     //Creamos el menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
